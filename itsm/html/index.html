@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ITSM</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>O impacto da tecnologia na saúde mental</h1>
+    </header>
+
+    <button onclick="modoEscuro()">
+        🌙 Modo Escuro
+    </button>
+
+    <main>
+
+        <section class="introducao">
+            <h2>Introdução</h2>
+
+            <p>
+                    É fato que a internet é algo extremamente presente no dia a dia das pessoas
+            </p>
+        </section>
+
+        <section class="saude">
+            <h2>O que é saúde mental?</h2>
+
+            <p>
+                 ipsum dolor sit amet consectetur adipisicing elit.
+                Nostrum labore libero voluptatum veritatis totam saepe
+                fugit iure reprehenderit? Voluptatibus, provident autem.
+                Voluptatibus facere saepe itaque id quos cupiditate
+                voluptate culpa.
+            </p>
+        </section>
+
+        <section class="positivos">
+            <h2>Impactos positivos da tecnologia</h2>
+
+            <p>
+                 ipsum dolor sit amet consectetur adipisicing elit.
+                Provident nihil fuga ea rerum quo nostrum iure alias.
+                Itaque vero voluptates laboriosam deleniti maxime
+                aspernatur repudiandae maiores voluptatibus voluptate
+                incidunt.
+            </p>
+        </section>
+
+        <section class="negativos">
+            <h2>Impactos negativos da tecnologia</h2>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident nihil fuga ea rerum quo nostrum iure alias.
+                Itaque vero voluptates laboriosam deleniti maxime
+                aspernatur repudiandae maiores voluptatibus voluptate
+                incidunt.
+            </p>
+        </section>
+
+        <section class="redes">
+            <h2>O impacto das redes sociais</h2>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sequi doloremque rerum recusandae amet cupiditate
+                incidunt maxime corporis et minima, nostrum, est illum
+                quo repellendus aut deleniti voluptatum?
+            </p>
+        </section>
+
+    </main>
+
+    <script>
+        function modoEscuro() {
+            document.body.classList.toggle("dark-mode");
+
+            const botao = document.querySelector("button");
+
+            if (document.body.classList.contains("dark-mode")) {
+                botao.textContent = "☀️ Modo Claro";
+            } else {
+                botao.textContent = "🌙 Modo Escuro";
+            }
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+

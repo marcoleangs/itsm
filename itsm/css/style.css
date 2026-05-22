@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    transition: 0.3s;
+}
+
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+section {
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode section {
+    background-color: #1e1e1e;
+}
+
+.dark-mode header {
+    background-color: #222;
+}
+
+.dark-mode button {
+    background-color: #333;
+    color: white;
+}
